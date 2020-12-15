@@ -16,20 +16,20 @@ class Animal {
         petNameTD.textContent = this.name;
         petTR.appendChild(petNameTD);
         petNameTD.onclick = this.image.bind(this);
-        petNameTD.addEventListener("mouseover", function(e){ 
+        /*petNameTD.addEventListener("mouseover", function(e){ 
           petNameTD.bgColor="green",petNameTD.style.color ="white";});
         petNameTD.addEventListener("mouseout", function(e){ 
-          petNameTD.bgColor="transparent",petNameTD.style.color ="black";});
+          petNameTD.bgColor="transparent",petNameTD.style.color ="black";});*/
        
 
         var petLegsTD = document.createElement("td");
         petLegsTD.textContent = this.legs;
         petTR.appendChild(petLegsTD);
         petLegsTD.onclick = this.image.bind(this);
-        petLegsTD.addEventListener("mouseover", function(e){ 
+        /*petLegsTD.addEventListener("mouseover", function(e){ 
           petLegsTD.bgColor="green", petLegsTD.style.color ="white"; });
         petLegsTD.addEventListener("mouseout", function(e){ 
-          petLegsTD.bgColor="transparent", petLegsTD.style.color ="black"; });
+          petLegsTD.bgColor="transparent", petLegsTD.style.color ="black"; });*/
 
         var petActionTD = document.createElement("td");
         var petActionTDButton = document.createElement("button");
